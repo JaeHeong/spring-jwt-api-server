@@ -33,14 +33,6 @@ public class JwtAuthenticationController {
 	@Autowired
 	private JwtUserDetailService jwtUserDetailService;
 
-	@Autowired
-	private UserService userService;
-
-	@PostMapping(value = "/regist")
-	public ResponseEntity<?> saveUser(@RequestBody UserDTO user) throws Exception {
-		return ResponseEntity.ok(userService.userSave(user));
-	}
-
 	@PostMapping(value = "/authenticate")
 	public ResponseEntity<?> createAuthenticationToken(@RequestBody UserAuthenticationRequest authenticationRequest)
 			throws Exception {
