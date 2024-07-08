@@ -5,7 +5,7 @@ docker run -d --name docker-mysql -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 m
 
 ## Register USER
 ```
-localhost:8080/register
+localhost:8080/regist
 ```
 ![Register User](./register_user.png)
 
