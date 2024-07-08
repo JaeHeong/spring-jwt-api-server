@@ -15,7 +15,7 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 
-	@PostMapping(value = "/register")
+	@PostMapping(value = "/regist")
 	public ResponseEntity<?> saveUser(@RequestBody UserDTO user) throws Exception {
 		return ResponseEntity.ok(userService.userSave(user));
 	}
