@@ -18,4 +18,8 @@ localhost:8080/authenticate
 ```
 localhost:8080/hello
 ```
+### Unauthorized User
 ![Unauthorized User](./unauthorized.png)
+
+### Authorized User
+![Authorized User](./authorized.png)
