@@ -7,7 +7,7 @@ docker run -d --name docker-mysql -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 m
 ```
 localhost:8080/register
 ```
-![High Level Architecture](./agones-openmatch-multicluster.final.png)
+![High Level Architecture](./register_user.png)
 
 ## Authenticate USER
 ```
@@ -18,4 +18,4 @@ localhost:8080/authenticate
 ```
 localhost:8080/hello
 ```
-![High Level Architecture](./agones-openmatch-multicluster.final.png)
+![High Level Architecture](./unauthorized.png)
