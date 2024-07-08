@@ -13,7 +13,7 @@ localhost:8080/register
 ```
 localhost:8080/authenticate
 ```
-
+![High Level Architecture](./authenticate_user.png)
 ## TEST
 ```
 localhost:8080/hello
